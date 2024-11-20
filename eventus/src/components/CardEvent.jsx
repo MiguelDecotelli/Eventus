@@ -1,22 +1,20 @@
-import ImgCard from "../img/banner1.jpg";
+import { Link } from "react-router-dom";
 
-export function CardEvent() {
-	return (
-		<div className="card" style={{ width: "18rem" }}>
-			<img src={ImgCard} className="card-img-top" alt="Card image" />
-			<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make up the
-					bulk of the cards content.
-				</p>
+export const CardEvent = ({ evento }) => {
 
-				<div className="d-flex justify-content-center">
-					<a href="#" className="btn btn-orange mx-auto">
-						Go somewhere
-					</a>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="card">
+      <img src={evento.image} className="card-img-top card-img-custom" alt="Card image" />
+      <div className="card-body d-flex flex-column">
+        <h4 className="card-title">{evento.title}</h4>
+        <p className="card-text">{evento.description}</p>
+        <p className="card-text">{evento.date}</p>
+        <div className="mt-auto d-flex justify-content-center">
+          <Link className="btn btn-orange mx-auto" to={`/eventDetails/${evento.id}`}>
+            Detalhes
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
 }
