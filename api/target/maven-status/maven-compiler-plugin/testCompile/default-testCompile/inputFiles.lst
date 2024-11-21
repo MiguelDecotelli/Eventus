@@ -1,1 +1,5 @@
-/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/EventusApplicationTests.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/AddressControllerTests.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/CityControllerTests.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/EventsControllerTests.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/TicketControllerTests.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/test/java/com/eventus/eventus/UserControllerTests.java

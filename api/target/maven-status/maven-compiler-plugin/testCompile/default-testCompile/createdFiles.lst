@@ -1,1 +1,5 @@
-com/eventus/eventus/EventusApplicationTests.class
+com/eventus/eventus/CityControllerTests.class
+com/eventus/eventus/TicketControllerTests.class
+com/eventus/eventus/AddressControllerTests.class
+com/eventus/eventus/EventsControllerTests.class
+com/eventus/eventus/UserControllerTests.class

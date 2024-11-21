@@ -19,6 +19,7 @@ com/eventus/eventus/security/SecurityConfig.class
 com/eventus/eventus/dto/UserTicketDTO.class
 com/eventus/eventus/dto/UserTicketsDTO.class
 com/eventus/eventus/security/JwtTokenProvider.class
+com/eventus/eventus/dto/UserLogedDTO.class
 com/eventus/eventus/service/AuthenticationService.class
 com/eventus/eventus/model/TicketModel.class
 com/eventus/eventus/repository/AddressRepository.class

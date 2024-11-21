@@ -13,6 +13,7 @@
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/TicketDTO.java
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/TicketUsersDTO.java
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/UserDTO.java
+/home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/UserLogedDTO.java
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/UserTicketDTO.java
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/dto/UserTicketsDTO.java
 /home/jagga/Documentos/MAISPRATI/Projeto_Final/api/src/main/java/com/eventus/eventus/model/AddressModel.java
