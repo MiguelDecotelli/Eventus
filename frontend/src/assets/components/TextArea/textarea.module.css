@@ -1,0 +1,40 @@
+/* Estilo principal da área de texto */
+.textArea {
+    border: 0;
+    background-color: transparent;
+    padding: 0 0 0.5rem 0;
+    box-shadow: none;
+    resize: none; /* Evita o redimensionamento */
+    max-height: 80px;
+    min-height: 80px;
+    overflow-y: auto;
+  }
+  
+  /* Estilo do grupo de entrada */
+  .inputGroup {
+    border-bottom: 1px solid var(--border-color);
+    width: 95%;
+  }
+  
+  /* Estilo do rótulo */
+  .label {
+    font-size: small;
+    color: var(--text);
+  }
+  
+  /* Mensagem de erro */
+  .errorMessage {
+    color: var(--danger-color);
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .visible {
+    visibility: visible;
+  }
+  
+  .invisible {
+    visibility: hidden;
+  }
+  

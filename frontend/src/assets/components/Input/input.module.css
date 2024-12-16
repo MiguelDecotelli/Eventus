@@ -1,0 +1,21 @@
+  .input {
+    text-align: start;
+    border: none;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    width: 95%;
+  }
+  
+  .label {
+    font-size: small;
+    color: var(--text);
+    background: transparent;
+  }
+  
+  .errorMessage {
+    padding: 0;
+    margin: 0;
+    visibility: visible;
+  }
+  

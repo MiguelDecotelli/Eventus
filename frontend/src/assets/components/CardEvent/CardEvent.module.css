@@ -1,0 +1,47 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 27.85rem;
+	margin: 1rem .25rem 0 .25rem;
+	border: var(--accent) solid .125rem;
+	border-radius: .825rem;
+	width: 19rem;
+	gap: 1rem;
+}
+
+.cardImage {
+	border-radius: .925rem;
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	border: none;
+}
+
+.cardTitle {
+	color: var(--accent);
+	margin-bottom: 0.85rem;
+	text-align: center;
+	font-size:x-large;
+}
+
+.cardText {
+	margin: .8rem 0;
+	text-align: justify;
+}
+
+
+.cardBody {
+	padding: 1.25rem;
+}
+
+
+.error-message {
+	height: 1.5rem;
+	transition: opacity 0.2s ease;
+	font-size: 0.875rem;
+}
+
+.no-after::after {
+	content: none !important;
+}

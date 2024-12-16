@@ -1,0 +1,59 @@
+.eventHistory {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .historyTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .noEventsMessage {
+    font-size: 1.2rem;
+    color: var(--text-color-secondary);
+    text-align: center;
+  }
+  
+  .historySections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .historySection {
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    background-color: var(--bg-card);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .historySection:hover {
+    transform: scale(1.05);
+    box-shadow: var(--box-shadow-hover);
+  }
+  
+  .eventTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .eventDescription {
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+    margin: 1rem 0;
+  }
+  
+  .eventDate {
+    font-size: 0.9rem;
+    color: var(--text-color-secondary);
+  }
+  

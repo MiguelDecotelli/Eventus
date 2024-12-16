@@ -1,0 +1,181 @@
+:root {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	--text: #f1e4e6;
+	--text-placeholder: #9b8a8dae;
+	--background: #11090a;
+	--primary: #d2a7b1;
+	--secondary: #7a2936;
+	--accent: #c36950;
+	--dark: #050505;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	font-size: 100%;
+	font-family: "Noto Sans Mahajani", sans-serif;
+	font-weight: 400;
+	background-color: var(--background);
+	color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Noto Sans Mahajani", sans-serif;
+	font-weight: 700;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input {
+	background: none;
+	border: none;
+	color: var(--text);
+	text-align: end;
+	padding-right: 1rem;
+}
+
+.text {
+	color: var(--text);
+}
+
+/* MEDIA QUERIES */
+
+/* Mobile - dispositivos menores que 480px */
+@media (max-width: 479.98px) {}
+
+/* Extra Small (xs) - dispositivos menores que 576px */
+@media (max-width: 575.98px) {
+	.card {
+		height: 2rem;
+		width: 3rem;
+	}
+}
+
+/* Small (sm) - dispositivos a partir de 576px */
+@media (min-width: 576px) {}
+
+/* Medium (md) - dispositivos a partir de 768px*/
+@media (min-width: 768px) {}
+
+/* Large (lg) - dispositivos a partir de 992px */
+@media (min-width: 992px) {}
+
+/* Extra Large (xl) - dispositivos a partir de 1200px */
+@media (min-width: 1200px) {}
+
+/* Extra Extra Large (xxl) - dispositivos a partir de 1400px  */
+@media (min-width: 1400px) {
+	.list-cards > li {
+		flex: 1 1 calc(24% - 1rem);
+		max-width: calc(24% - 1rem);
+	  }
+	
+}
+.btn-orange {
+	margin-top: 1rem;
+	align-self: center;
+	background-color: var(--accent);
+	color: var(--text);
+}
+
+.btn-orange:hover {
+	background-color: var(--accent);
+	color: var(--text);
+	opacity: 0.8;
+}
+ 
+.bg {
+	background-color: var(--background);
+}
+/*
+
+.custom-input,
+.custom-input:focus {
+	color: var(--text);
+	border: none;
+}
+
+.custom-input::placeholder {
+	color: var(--text-placeholder);
+}
+
+.custom-gradient {
+	background: linear-gradient(to right, var(--background), var(--accent));
+}
+
+.custom-style-left,
+.custom-style-right {
+	width: 8rem;
+	padding: 1rem;
+	background-color: var(--accent);
+	color: var(--text);
+	line-height: 1.2;
+}
+
+.custom-style-left {
+	left: -8rem;
+}
+
+.custom-style-right {
+	right: -8rem;
+}
+
+.custom-section {
+	width: 55rem;
+	height: 35rem;
+}
+
+.custom-background-login,
+.custom-background-signup {
+	background: url("src/img/signup.jpg") no-repeat;
+	background-size: cover;
+}
+
+.custom-background-login {
+	background-position: left center;
+}
+
+.custom-background-signup {
+	background-position: right center;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+} */

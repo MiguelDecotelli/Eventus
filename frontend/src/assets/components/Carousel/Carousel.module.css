@@ -1,0 +1,16 @@
+.slide {
+	justify-content: center;
+	width: 100%;
+	height: 50rem;
+}
+
+.customCarousel {
+	width: 100%;
+	height: 45rem;
+	margin: auto;
+}
+
+.customCarousel img {
+	object-fit: cover;
+	height: 45rem;
+}

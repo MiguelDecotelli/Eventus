@@ -1,0 +1,65 @@
+.containerContact {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contactBox {
+	width: 85%;
+	background-color: var(--background);
+	border-radius: 20px;
+}
+
+.cardGroup {
+  width: 100%;
+}
+
+.card {
+  padding: 1rem;
+  width: 260px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  /* box-shadow: var(--box-shadow); */
+  text-align: center;
+  background-color: var(--background) !important;
+  border: 1px solid var(--primary);
+  color: whitesmoke;
+  transition: 1s ease;
+}
+
+.card:hover {
+  background-color: var(--accent) !important;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.card span {
+  font-size: medium;
+}
+
+.icon {
+  padding: .5rem;
+  font-size: 1.5rem;
+}
+
+.form {
+  gap: .75rem;
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+}
+
+.button {
+  align-self: center;
+  width: 85%;
+}
+
+.map {
+  padding: 1.25rem;
+  border-radius: .2rem;
+  max-height: 340px;
+}

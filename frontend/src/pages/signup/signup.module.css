@@ -1,0 +1,32 @@
+.customGradient {
+    background: var(--background-gradient);
+  }
+  
+  .customSection {
+    display: flex;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .customStyleRight {
+    color: var(--primary-color);
+  }
+  
+  .customBackgroundSignup {
+    background: url("/signup-background.jpg") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form {
+    gap: 1rem;
+  }
+  
+  .button {
+    width: 100%;
+  }
+  

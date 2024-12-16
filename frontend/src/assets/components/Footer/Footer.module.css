@@ -1,0 +1,30 @@
+.pages {
+	background-color: whitesmoke;
+	border-color: var(--accent);
+	border-style: groove;
+	margin-top: 2.5rem;
+	padding: .8rem;
+	text-align: center;
+}
+
+.image {
+	max-width: 135px;
+	margin-bottom: 10px;
+}
+
+.email {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.socials {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.socials i {
+    color: #050505;
+}

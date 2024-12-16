@@ -1,0 +1,591 @@
+{
+  "users": [
+    {
+      "id": "f8c6",
+      "username": "user1",
+      "email": "user1@email.com",
+      "password": "12345678"
+    },
+    {
+      "id": "635f",
+      "username": "user2",
+      "email": "user2@email.com",
+      "password": "12345678"
+    },
+    {
+      "id": "cf2e",
+      "username": "user3",
+      "email": "user3@email.com",
+      "password": "12345678"
+    }
+  ],
+  "sampleNews": [
+    {
+      "id": 1,
+      "title": "Estreia: 'Avatar 3'",
+      "description": "Confira a tão aguardada continuação da saga Avatar nos cinemas.",
+      "date": "2024-12-18",
+      "image": "/src/assets/images/cards/avatar3.png"
+    },
+    {
+      "id": 2,
+      "title": "Rock in Rio 2025",
+      "description": "Garanta seus ingressos para o maior festival de música do mundo!",
+      "date": "2025-09-13",
+      "image": "/src/assets/images/cards/rockinrio.png"
+    },
+    {
+      "id": 3,
+      "title": "Lollapalooza Brasil",
+      "description": "O festival que une música e cultura retorna com tudo em 2025.",
+      "date": "2025-03-22",
+      "image": "/src/assets/images/cards/lollapalooza.png"
+    },
+    {
+      "id": 4,
+      "title": "Natal Luz de Gramado",
+      "description": "Experimente a magia do Natal com shows e decorações incríveis.",
+      "date": "2024-11-25",
+      "image": "/src/assets/images/cards/natalLuz.png"
+    },
+    {
+      "id": 5,
+      "title": "ExpoGramado 2025",
+      "description": "Venha conferir o maior evento de exposições de Gramado.",
+      "date": "2025-06-15",
+      "image": "/src/assets/images/cards/expoGramado.png"
+    },
+    {
+      "id": 6,
+      "title": "Comédia Stand-Up: Thiago Ventura",
+      "description": "Ria com o melhor do stand-up comedy nacional.",
+      "date": "2024-12-02",
+      "image": "/src/assets/images/cards/thiagoVentura.png"
+    },
+    {
+      "id": 7,
+      "title": "Feira do Livro de Porto Alegre",
+      "description": "Descubra novos autores e mergulhe no mundo da literatura.",
+      "date": "2025-04-10",
+      "image": "/src/assets/images/cards/feiraLivroPoA.png"
+    },
+    {
+      "id": 8,
+      "title": "Exposição Van Gogh Alive",
+      "description": "Uma imersão única na arte do pintor Van Gogh.",
+      "date": "2024-12-10",
+      "image": "/src/assets/images/cards/VanGogh.png"
+    },
+    {
+      "id": 9,
+      "title": "Festival de Cinema de Gramado",
+      "description": "Premiação dos melhores filmes nacionais e internacionais.",
+      "date": "2025-08-17",
+      "image": "/src/assets/images/cards/festivalCinema.png"
+    },
+    {
+      "id": 10,
+      "title": "Show da Banda Coldplay",
+      "description": "Assista ao show inesquecível da banda Coldplay ao vivo.",
+      "date": "2024-12-05",
+      "image": "/src/assets/images/cards/coldplay.png"
+    },
+    {
+      "id": 11,
+      "title": "Mini Mundo em Gramado",
+      "description": "Explore as miniaturas encantadoras do Mini Mundo.",
+      "date": "2024-12-01",
+      "image": "/src/assets/images/cards/miniMundo.png"
+    },
+    {
+      "id": 12,
+      "title": "Cascata do Caracol",
+      "description": "Visite um dos cartões-postais mais belos do Brasil.",
+      "date": "2024-12-15",
+      "image": "/src/assets/images/cards/cascataCaracol.png"
+    },
+    {
+      "id": 13,
+      "title": "Teatro: 'O Fantasma da Ópera'",
+      "description": "Musical épico em cartaz em Porto Alegre.",
+      "date": "2024-11-30",
+      "image": "/src/assets/images/cards/fantasmaOpera.png"
+    },
+    {
+      "id": 14,
+      "title": "Show Sandy e Junior",
+      "description": "Reviva os maiores sucessos da dupla em Porto Alegre.",
+      "date": "2024-12-20",
+      "image": "/src/assets/images/cards/SandyJunior.png"
+    },
+    {
+      "id": 15,
+      "title": "Festival de Churros de Gramado",
+      "description": "Prove os melhores churros da região.",
+      "date": "2025-02-14",
+      "image": "/src/assets/images/cards/festivalChurros.png"
+    },
+    {
+      "id": 16,
+      "title": "Restaurante Belle du Valais",
+      "description": "Delicie-se com a alta gastronomia suíça em Gramado.",
+      "date": "2024-12-01",
+      "image": "/src/assets/images/cards/belleDuValais.png"
+    },
+    {
+      "id": 17,
+      "title": "Show Ana Carolina",
+      "description": "Show intimista da cantora Ana Carolina.",
+      "date": "2024-12-22",
+      "image": "/src/assets/images/cards/anaCarolina.png"
+    },
+    {
+      "id": 18,
+      "title": "Exposição Mundo de Chocolate",
+      "description": "Uma doce aventura no Mundo de Chocolate em Gramado.",
+      "date": "2024-12-10",
+      "image": "/src/assets/images/cards/mundoChocolate.png"
+    },
+    {
+      "id": 19,
+      "title": "Tour Vinícolas da Serra Gaúcha",
+      "description": "Descubra os melhores vinhos do Brasil em Bento Gonçalves.",
+      "date": "2024-12-15",
+      "image": "/src/assets/images/cards/vinicolasSerra.png"
+    },
+    {
+      "id": 20,
+      "title": "Mostra de Artesanato de Gramado",
+      "description": "Admire e adquira peças artesanais únicas da região.",
+      "date": "2024-12-05",
+      "image": "/src/assets/images/cards/mostraArtesanato.png"
+    },
+    {
+      "id": 21,
+      "title": "Teatro: 'Hamlet'",
+      "description": "Thiago Lacerda estrela uma releitura moderna do clássico de Shakespeare em Porto Alegre.",
+      "date": "2024-12-10",
+      "image": "/src/assets/images/cards/hamlet.png"
+    },
+    {
+      "id": 22,
+      "title": "Show Zeca Pagodinho",
+      "description": "Curta os maiores sucessos do samba ao vivo.",
+      "date": "2024-12-18",
+      "image": "/src/assets/images/cards/zecaPagodinho.png"
+    },
+    {
+      "id": 23,
+      "title": "Festival de Balonismo em Torres",
+      "description": "Um espetáculo de cores e formas no céu do litoral gaúcho.",
+      "date": "2025-04-15",
+      "image": "/src/assets/images/cards/balonismo.png"
+    },
+    {
+      "id": 24,
+      "title": "Parque de Aventuras Alpen Park",
+      "description": "Diversão garantida com tirolesa, trenós e muito mais em Canela.",
+      "date": "2024-12-01",
+      "image": "/src/assets/images/cards/alpenPark.png"
+    },
+    {
+      "id": 25,
+      "title": "Show Alok",
+      "description": "Vibre com os maiores hits do DJ brasileiro em Caxias do Sul.",
+      "date": "2024-12-23",
+      "image": "/src/assets/images/cards/alok.png"
+    },
+    {
+      "id": 26,
+      "title": "Museu de Cera Dreamland",
+      "description": "Encontre réplicas de celebridades em um passeio divertido em Gramado.",
+      "date": "2024-12-05",
+      "image": "/src/assets/images/cards/dreamland.png"
+    },
+    {
+      "id": 27,
+      "title": "Festival de Jazz de Porto Alegre",
+      "description": "Aprecie performances de jazz com artistas locais e internacionais.",
+      "date": "2025-02-20",
+      "image": "/src/assets/images/cards/festivalJazz.png"
+    },
+    {
+      "id": 28,
+      "title": "Show do Skank - Turnê de despedida",
+      "description": "Despeça-se da banda em um show inesquecível em Porto Alegre.",
+      "date": "2025-01-15",
+      "image": "/src/assets/images/cards/skank.png"
+    },
+    {
+      "id": 29,
+      "title": "Parque Estadual de Itaimbezinho",
+      "description": "Admire as impressionantes formações rochosas do Cânion Itaimbezinho.",
+      "date": "2024-12-11",
+      "image": "/src/assets/images/cards/itaimbezinho.png"
+    },
+    {
+      "id": 30,
+      "title": "Cinemateca Capitólio",
+      "description": "Assista a filmes clássicos e alternativos no coração de Porto Alegre.",
+      "date": "2024-12-10",
+      "image": "/src/assets/images/cards/cinematecaCapitolio.png"
+    },
+    {
+      "id": 31,
+      "title": "Festival de Cervejas Artesanais",
+      "description": "Explore os sabores das melhores cervejas da Serra Gaúcha.",
+      "date": "2025-03-05",
+      "image": "/src/assets/images/cards/cervejasArtesanais.png"
+    },
+    {
+      "id": 32,
+      "title": "Exposição Lego na Serra Gaúcha",
+      "description": "Descubra incríveis construções feitas com Lego em Gramado.",
+      "date": "2025-01-10",
+      "image": "/src/assets/images/cards/exposicaoLego.png"
+    },
+    {
+      "id": 33,
+      "title": "Teatro: 'A Pequena Sereia'",
+      "description": "Musical encantador para toda a família em Porto Alegre.",
+      "date": "2025-01-20",
+      "image": "/src/assets/images/cards/pequenaSereia.png"
+    },
+    {
+      "id": 34,
+      "title": "Parque Snowland",
+      "description": "Aproveite uma experiência de neve única em Gramado.",
+      "date": "2024-12-15",
+      "image": "/src/assets/images/cards/snowland.png"
+    },
+    {
+      "id": 35,
+      "title": "Restaurante Casa da Velha Bruxa",
+      "description": "Experimente sobremesas mágicas em Gramado.",
+      "date": "2024-12-01",
+      "image": "/src/assets/images/cards/velhabruxa.png"
+    },
+    {
+      "id": 36,
+      "title": "Mostra de Arte Urbana de Porto Alegre",
+      "description": "Explore murais e obras de arte urbana na capital.",
+      "date": "2025-02-28",
+      "image": "/src/assets/images/cards/arteurbana.png"
+    },
+    {
+      "id": 37,
+      "title": "Show de Luiza Sonza",
+      "description": "A cantora gaúcha retorna ao estado para um show vibrante.",
+      "date": "2025-01-25",
+      "image": "/src/assets/images/cards/luizaSonza.png"
+    },
+    {
+      "id": 38,
+      "title": "Casa do Colono em Gramado",
+      "description": "Saboreie produtos artesanais locais frescos e deliciosos.",
+      "date": "2024-12-20",
+      "image": "/src/assets/images/cards/casaColono.png"
+    },
+    {
+      "id": 39,
+      "title": "Parque do Lago Negro",
+      "description": "Desfrute de um passeio relaxante neste belo parque em Gramado.",
+      "date": "2024-12-08",
+      "image": "/src/assets/images/cards/lagonegro.png"
+    },
+    {
+      "id": 40,
+      "title": "Teatro: 'O Auto da Compadecida'",
+      "description": "Espetáculo imperdível com humor e reflexão.",
+      "date": "2025-03-15",
+      "image": "/src/assets/images/cards/autoCompadecida.png"
+    },
+    {
+      "id": 41,
+      "title": "Tour Histórico de Pelotas",
+      "description": "Conheça as charqueadas e a história rica de Pelotas.",
+      "date": "2024-12-20",
+      "image": "/src/assets/images/cards/tourpelotas.png"
+    },
+    {
+      "id": 42,
+      "title": "Festival Internacional de Folclore",
+      "description": "Celebre a diversidade cultural em Nova Petrópolis.",
+      "date": "2025-07-15",
+      "image": "/src/assets/images/cards/folclore.png"
+    },
+    {
+      "id": 43,
+      "title": "Encontro de Carros Antigos em Canela",
+      "description": "Admire relíquias automotivas em uma exposição especial.",
+      "date": "2025-02-18",
+      "image": "/src/assets/images/cards/carroscanela.png"
+    },
+    {
+      "id": 44,
+      "title": "Festa da Uva em Caxias do Sul",
+      "description": "Celebre as tradições italianas e prove deliciosas uvas.",
+      "date": "2025-02-20",
+      "image": "/src/assets/images/cards/festauva.png"
+    },
+    {
+      "id": 45,
+      "title": "Cinema ao Ar Livre no Gasômetro",
+      "description": "Experimente o cinema em um ambiente único em Porto Alegre.",
+      "date": "2024-12-29",
+      "image": "/src/assets/images/cards/cinemagasometro.png"
+    },
+    {
+      "id": 46,
+      "title": "Passeio de Trem Maria Fumaça",
+      "description": "Um passeio histórico de trem pela Serra Gaúcha.",
+      "date": "2024-12-12",
+      "image": "/src/assets/images/cards/mariafumaca.png"
+    },
+    {
+      "id": 47,
+      "title": "Show de Gilberto Gil",
+      "description": "Um show único com clássicos do mestre da MPB.",
+      "date": "2025-01-10",
+      "image": "/src/assets/images/cards/gil.png"
+    },
+    {
+      "id": 48,
+      "title": "Mercado Público de Porto Alegre",
+      "description": "Explore os sabores e a cultura local no Mercado Público.",
+      "date": "2024-12-01",
+      "image": "/src/assets/images/cards/mercadopub.png"
+    },
+    {
+      "id": 49,
+      "title": "Festival de Blues de Canela",
+      "description": "Apresentações emocionantes de blues em meio à Serra Gaúcha.",
+      "date": "2025-04-10",
+      "image": "/src/assets/images/cards/bluescanela.png"
+    },
+    {
+      "id": 50,
+      "title": "Roteiro Caminhos de Pedra",
+      "description": "Descubra o patrimônio histórico e cultural de Bento Gonçalves.",
+      "date": "2025-03-22",
+      "image": "/src/assets/images/cards/caminhospedra.png"
+    },
+    {
+      "id": 51,
+      "title": "Passeio de Barco pelo Guaíba",
+      "description": "Aprecie Porto Alegre de uma perspectiva única.",
+      "date": "2024-12-15",
+      "image": "/src/assets/images/cards/barco.png"
+    },
+    {
+      "id": 52,
+      "title": "Oficina de Chocolates em Gramado",
+      "description": "Aprenda a fazer chocolates deliciosos na capital do chocolate.",
+      "date": "2025-01-05",
+      "image": "/src/assets/images/cards/ofcchoco.png"
+    },
+    {
+      "id": 53,
+      "title": "Semana Farroupilha de Porto Alegre",
+      "description": "Celebração tradicionalista com desfiles e shows.",
+      "date": "2025-09-20",
+      "image": "/src/assets/images/cards/SemFarroupilha.png"
+    },
+    {
+      "id": 54,
+      "title": "Passeio pelo Labirinto Verde",
+      "description": "Desafie-se no famoso labirinto de Nova Petrópolis.",
+      "date": "2024-12-07",
+      "image": "/src/assets/images/cards/LabVerde.png"
+    },
+    {
+      "id": 55,
+      "title": "Show da Orquestra Sinfônica de Porto Alegre",
+      "description": "Uma noite de música clássica no Theatro São Pedro.",
+      "date": "2024-12-22",
+      "image": "/src/assets/images/cards/ospa.png"
+    },
+    {
+      "id": 56,
+      "title": "Festival de Sopas em Canela",
+      "description": "Deguste sopas deliciosas em um evento aconchegante.",
+      "date": "2025-07-10",
+      "image": "/src/assets/images/cards/festsopa.png"
+    },
+    {
+      "id": 57,
+      "title": "Exposição de Orquídeas em Gramado",
+      "description": "Encante-se com a beleza das flores em Gramado.",
+      "date": "2025-03-15",
+      "image": "/src/assets/images/cards/exporquideas.png"
+    },
+    {
+      "id": 58,
+      "title": "Parque Terra Mágica Florybal",
+      "description": "Diversão para toda a família com dinossauros e atrações temáticas.",
+      "date": "2024-12-12",
+      "image": "/src/assets/images/cards/floryball.png"
+    },
+    {
+      "id": 59,
+      "title": "Exposição 'Gaúchos em Foco'",
+      "description": "Fotografias que celebram a cultura e o cotidiano gaúcho.",
+      "date": "2025-02-01",
+      "image": "/src/assets/images/cards/gauchosfoco.png"
+    },
+    {
+      "id": 60,
+      "title": "Festival de Cinema ao Ar Livre",
+      "description": "Sessões de cinema em locais icônicos da Serra Gaúcha.",
+      "date": "2025-01-18",
+      "image": "/src/assets/images/cards/cinearlivre.png"
+    },
+    {
+      "id": 61,
+      "title": "Festa das Flores",
+      "description": "Celebração das flores com exposições e oficinas em Gramado.",
+      "date": "2024-10-15",
+      "image": "/src/assets/images/cards/festaflores.png"
+    },
+    {
+      "id": 62,
+      "title": "Semana Literária de Porto Alegre",
+      "description": "Encontro de autores, leitores e obras em Porto Alegre.",
+      "date": "2024-09-20",
+      "image": "/src/assets/images/cards/SemLiteraria.png"
+    },
+    {
+      "id": 63,
+      "title": "Caminhada Ecológica em Torres",
+      "description": "Explore a natureza com trilhas guiadas em Torres.",
+      "date": "2024-09-10",
+      "image": "/src/assets/images/cards/CamEco.png"
+    },
+    {
+      "id": 64,
+      "title": "Festival de Jazz de Bento Gonçalves",
+      "description": "Grandes nomes do jazz em uma celebração única.",
+      "date": "2024-08-25",
+      "image": "/src/assets/images/cards/festjazzbg.png"
+    },
+    {
+      "id": 65,
+      "title": "Feira do Livro de Pelotas",
+      "description": "Uma feira com lançamentos e atrações literárias.",
+      "date": "2024-08-10",
+      "image": "/src/assets/images/cards/FeiraLivropelotas.png"
+    },
+    {
+      "id": 66,
+      "title": "Festival Gastronômico de Gramado",
+      "description": "Sabores incríveis com chefs renomados.",
+      "date": "2024-07-15",
+      "image": "/src/assets/images/cards/foodfest.png"
+    },
+    {
+      "id": 67,
+      "title": "Festival de Dança Contemporânea",
+      "description": "Espetáculos com grupos de dança nacionais e internacionais.",
+      "date": "2024-06-25",
+      "image": "/src/assets/images/cards/ContDance.png"
+    },
+    {
+      "id": 68,
+      "title": "Encontro de Motociclistas",
+      "description": "Paixão pelas duas rodas em um evento cheio de adrenalina.",
+      "date": "2024-06-10",
+      "image": "/src/assets/images/cards/MotoMeeting.png"
+    },
+    {
+      "id": 69,
+      "title": "Festival de Cinema de Porto Alegre",
+      "description": "Mostra de filmes nacionais e internacionais.",
+      "date": "2024-05-20",
+      "image": "/src/assets/images/cards/FestCinepoa.png"
+    },
+    {
+      "id": 70,
+      "title": "Caminhada Fotográfica em Canela",
+      "description": "Capture a beleza da natureza e da arquitetura de Canela.",
+      "date": "2024-05-15",
+      "image": "/src/assets/images/cards/camFotocanela.png"
+    },
+    {
+      "id": 71,
+      "title": "Festival da Amazônia Sustentável",
+      "description": "Realizado em Manaus, o festival promoveu a conscientização ambiental com palestras de líderes indígenas, exposições de artesanato local, gastronomia amazônica e shows com artistas regionais e nacionais.",
+      "date": "2024-07-30",
+      "image": "/src/assets/images/cards/amazoniaSustentavel.png"
+    },
+    {
+      "id": 72,
+      "title": "Rock in Rio",
+      "description": "O maior festival de música do Brasil, com artistas nacionais e internacionais.",
+      "date": "2024-09-10",
+      "image": "/src/assets/images/cards/rockinrio24.png"
+    },
+    {
+      "id": 73,
+      "title": "Festival Lollapalooza Brasil",
+      "description": "Grandes nomes do rock, pop e música alternativa no autódromo de Interlagos, São Paulo.",
+      "date": "2024-04-15",
+      "image": "/src/assets/images/cards/lollapalooza24.png"
+    },
+    {
+      "id": 74,
+      "title": "Festival de Música de Olinda",
+      "description": "Shows ao vivo em meio ao charme histórico de Olinda, Pernambuco.",
+      "date": "2024-08-05",
+      "image": "/src/assets/images/cards/Olindamusfest.png"
+    },
+    {
+      "id": 75,
+      "title": "Búzios Jazz e Blues Festival",
+      "description": "Festival de jazz e blues na encantadora cidade de Búzios, Rio de Janeiro.",
+      "date": "2024-07-22",
+      "image": "/src/assets/images/cards/buziosjazzblues.png"
+    },
+    {
+      "id": 76,
+      "title": "Festival VillaMix Goiânia",
+      "description": "O maior festival de música sertaneja do Brasil, com atrações diversificadas.",
+      "date": "2024-06-30",
+      "image": "/src/assets/images/cards/villamix.png"
+    },
+    {
+      "id": 77,
+      "title": "Carnatal",
+      "description": "Um dos maiores carnavais fora de época, em Natal, Rio Grande do Norte.",
+      "date": "2024-10-15",
+      "image": "/src/assets/images/cards/carnatal.png"
+    },
+    {
+      "id": 78,
+      "title": "Festival Planeta Atlântida",
+      "description": "Diversos estilos musicais no litoral de Santa Catarina.",
+      "date": "2024-02-05",
+      "image": "/src/assets/images/cards/planetaa.png"
+    },
+    {
+      "id": 79,
+      "title": "Festival de Verão de Salvador",
+      "description": "Um dos maiores eventos de música e entretenimento do Brasil.",
+      "date": "2024-03-20",
+      "image": "/src/assets/images/cards/Salvadorsummerfest.png"
+    },
+    {
+      "id": 80,
+      "title": "Tomorrowland Brasil",
+      "description": "O maior festival de música eletrônica do mundo em Itupeva, São Paulo.",
+      "date": "2024-04-12",
+      "image": "/src/assets/images/cards/tomorrowland24.png"
+    },
+    {
+      "id": 81,
+      "title": "Festival Sarará",
+      "description": "Um festival que celebra a música brasileira em Belo Horizonte, Minas Gerais.",
+      "date": "2024-09-02",
+      "image": "/src/assets/images/cards/festsarara.png"
+    }
+  ]
+}

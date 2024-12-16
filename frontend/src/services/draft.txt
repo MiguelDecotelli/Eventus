@@ -1,0 +1,29 @@
+CÓDIGO DE API.JS
+
+
+// Global error handling using interceptors (simplified)
+api.interceptors.response.use(
+  (response) => response, // Passa respostas bem-sucedidas
+  (error) => {
+    // Verifica se é um erro de resposta HTTP
+    if (error.response) {
+      console.error("Erro na API:", error.response);
+      // Retorna um erro amigável ao invés de detalhes técnicos
+      return Promise.reject(
+        new Error(
+          `Erro ${error.response.status}: ${error.response.data?.message || "Erro desconhecido."}`
+        )
+      );
+    }
+
+    // Verifica se houve erro de rede (sem resposta do servidor)
+    if (error.request) {
+      console.error("Erro de rede: nenhuma resposta do servidor.");
+      return Promise.reject(new Error("Erro de rede: não foi possível alcançar o servidor."));
+    }
+
+    // Para outros erros (como configuração)
+    console.error("Erro na configuração da API:", error.message);
+    return Promise.reject(new Error("Erro interno: verifique a configuração."));
+  }
+);
