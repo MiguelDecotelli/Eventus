@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=18.x",
+    "npm": ">=9.x"
+  },
   "scripts": {
     "dev:backend": "npx json-server db.json --watch --port 3333",
     "dev": "vite",
@@ -20,6 +24,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.53.2",
+    "react-icons": "^5.4.0",
     "react-router-dom": "^7.0.1",
     "yup": "^1.4.0"
   },
